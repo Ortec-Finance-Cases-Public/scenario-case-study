@@ -1,0 +1,2 @@
+# Minimal environment for the starter code. Add the libraries your own approach needs.
+-e .[notebooks,dev]
