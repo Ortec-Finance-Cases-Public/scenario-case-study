@@ -1,0 +1,51 @@
+variable,frequency,name,region,units,seasonally_adjusted,value_type
+US_IP_NSA,M,"US industrial production, total index",US,index 2017=100,NSA,level
+US_PAYROLLS_NSA,M,US total nonfarm payrolls,US,thousands,NSA,level
+US_UNRATE_NSA,M,US unemployment rate,US,%,NSA,level
+US_CPI_NSA,M,US CPI-U all items,US,index 1982-84=100,NSA,level
+US_CPI_CORE_NSA,M,US CPI-U less food and energy,US,index 1982-84=100,NSA,level
+US_POLICY_RATE,M,US central bank policy rate,US,%,-,level
+US_TBILL_3M,M,US 3-month Treasury constant maturity,US,% (bond equiv.),-,level
+US_ZC_2Y,M,US zero-coupon yield 2y,US,% cont. comp.,-,level
+US_ZC_5Y,M,US zero-coupon yield 5y,US,% cont. comp.,-,level
+US_ZC_10Y,M,US zero-coupon yield 10y,US,% cont. comp.,-,level
+US_ZC_30Y,M,US zero-coupon yield 30y,US,% cont. comp.,-,level
+US_BEI_10Y,M,US 10y breakeven inflation (TIPS),US,% cont. comp.,-,level
+US_EQ_MKT,M,US equity market total return,US,"% total return, USD",-,"period return, %"
+US_GZ_SPREAD,M,US Gilchrist-Zakrajsek corporate credit spread,US,pp,-,level
+US_VIX,M,CBOE VIX,US,% annualised,-,level
+EA_IP_CA,M,"Euro area industrial production (B-D), calendar adjusted",EA,index 2021=100,CA,level
+EA_UNRATE_NSA,M,Euro area unemployment rate,EA,% of labour force,NSA,level
+EA_HICP_NSA,M,Euro area HICP all items,EA,index 2025=100,NSA,level
+EA_HICP_CORE_NSA,M,"Euro area HICP excl. energy, food, alcohol & tobacco",EA,index 2025=100,NSA,level
+EA_POLICY_RATE,M,Euro area central bank policy rate,EA,%,-,level
+DE_ZC_2Y,M,German government zero-coupon yield 2y,DE,% (Svensson zero),-,level
+DE_ZC_5Y,M,German government zero-coupon yield 5y,DE,% (Svensson zero),-,level
+DE_ZC_10Y,M,German government zero-coupon yield 10y,DE,% (Svensson zero),-,level
+DE_ZC_30Y,M,German government zero-coupon yield 30y,DE,% (Svensson zero),-,level
+EU_EQ_MKT,M,Europe equity market return (USD),EU,"% total return, USD",-,"period return, %"
+EURUSD,M,USD per EUR,EA,USD per EUR,-,level
+EA_CISS,M,Euro area composite indicator of systemic stress,EA,index 0-1,-,level
+JP_IP_NSA,M,Japan industrial production (B-E),JP,index 2015=100,NSA,level
+JP_UNRATE_NSA,M,Japan unemployment rate,JP,% of labour force,NSA,level
+JP_CPI_NSA,M,Japan CPI all items,JP,index 2020=100,NSA,level
+JP_CPI_CORE_NSA,M,Japan CPI less fresh food and energy,JP,index 2020=100,NSA,level
+JP_PAR_2Y,M,JGB par yield 2y,JP,% (par yield),-,level
+JP_PAR_5Y,M,JGB par yield 5y,JP,% (par yield),-,level
+JP_PAR_10Y,M,JGB par yield 10y,JP,% (par yield),-,level
+JP_PAR_30Y,M,JGB par yield 30y,JP,% (par yield),-,level
+JP_EQ_MKT,M,Japan equity market return (USD),JP,"% total return, USD",-,"period return, %"
+USDJPY,M,JPY per USD,JP,JPY per USD,-,level
+BRENT_SPOT,M,Brent crude spot price,GLOBAL,monthly average,-,level
+NATGAS_EU,M,"Natural gas price, Europe (TTF)",GLOBAL,USD/mmbtu,-,level
+COPPER,M,Copper price,GLOBAL,USD/mt,-,level
+GOLD,M,Gold price,GLOBAL,USD/troy oz,-,level
+EM_EQ_MKT,M,Emerging markets equity return (USD),EM,"% total return, USD",-,"period return, %"
+APXJ_EQ_MKT,M,Asia Pacific ex Japan equity market return (USD),APXJ,"% total return, USD",-,"period return, %"
+US_REIT,M,US equity REITs total return (FTSE Nareit Equity REITs),US,"% total return, USD",-,"period return, %"
+US_GDP_REAL_NSA,Q,"US real GDP, not seasonally adjusted",US,mn chained USD (quarterly level),NSA,level
+EA_GDP_REAL_NSA,Q,"Euro area real GDP, not seasonally adjusted",EA,"mn EUR, chain-linked 2020",NSA,level
+JP_GDP_REAL_SA,Q,Japan real GDP (SA),JP,"mn JPY, chain-linked volume",SA,level
+US_CPP,Q,US commercial property prices (all commercial properties),US,index,NSA,level
+EA_CPP,Q,Euro area commercial property prices,EA,index,NSA,level
+JP_CPP,Q,Japan commercial property price index (all Japan),JP,index,NSA,level
